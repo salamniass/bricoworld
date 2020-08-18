@@ -1,0 +1,26 @@
+.riparto__bricoworld {
+  background-color: $lightYellow;
+  .box {
+    text-align: center;
+    background-color: $lightBlue;
+
+    p {
+      color: $darkBlue;
+      font-size: 1.3rem;
+    }
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    background: $darkBlue;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    color: $lightYellow;
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+}

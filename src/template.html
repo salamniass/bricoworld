@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300;1,700&display=swap" rel="stylesheet" />
+    <title>Webpack Demo</title>
+  </head>
+  <body>
+    <!--Navbar -->
+    <!-- <div class="navigation-top">
+      <div class="container">
+        <nav class="navigation">
+          <div class="logo">
+            <h4>Bricoworld</h4>
+          </div>
+          <ul class="nav-links">
+            <li cl><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">work</a></li>
+          </ul>
+
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+    </div> -->
+    <!--/.Navbar -->
+    <!-- Carrousel intro -->
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="./assets/caroussel-agosto-bricoworld-detersivi.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <img src="./assets/caroussel-agosto-bricoworld-detersivi.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/caroussel-agosto-bricoworld-detersivi.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Carrousel end -->
+    <!-- Bricoworld Selargius section resume -->
+    <section class="inner">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-sm-4 card__column">
+            <a class="card__link" href="#">
+              <div class="card__brico">
+                <div class="card__brico--icon">
+                  <img src="./assets/icon-volantino.svg" alt="icon card bricoworld Selargius" />
+                </div>
+                <div class="card__brico--content">
+                  <h4>Volantino</h4>
+                  <p>Sfoglia le offerte del periodo</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-4 card__column">
+            <a class="card__link" href="#">
+              <div class="card__brico">
+                <div class="card__brico--icon">
+                  <img src="./assets/icon-news.svg" alt="icon card bricoworld Selargius" />
+                </div>
+                <div class="card__brico--content">
+                  <h4>NOVITÀ</h4>
+                  <p>Nuovi prodotti in assortimento</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-4 card__column">
+            <a class="card__link" href="#">
+              <div class="card__brico">
+                <div class="card__brico--icon">
+                  <img src="./assets/icon-card.svg" alt="icon card bricoworld Selargius" />
+                </div>
+                <div class="card__brico--content">
+                  <h4>Carta fidelta</h4>
+                  <p>Sfoglia le offerte del periodo</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End inner bricoworld -->
+    <!-- Bricoworld Selargius infos -->
+    <section class="bricoworld__infos d-flex align-items-center pad-y-6">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-md-4">
+            <img src="./assets/logobricoworld.png" alt="Logo Bricoworld Selargius" />
+          </div>
+          <div class="col-12 col-md-8">
+            <h1>BRICOWORLD SELARGIUS</h1>
+            <p>Il Gruppo BricWorld opera nel commercio al dettaglio dei prodotti di largo consumo e nel settore no-food.</p>
+            <p>Da anni offriamo ai nostri clienti: Rapporto qualità/prezzo dei prodotti leader del mercato; Commercio di prodotti esclusivi, tantissime categorie merceologiche e vasto assortimento di prodotti;</p>
+            <p>Attenzione al mercato, alle tendenze e sopratutto alla competitività dei prezzi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Bricoworld Selargius infos -->
+    <section class="bricoworld__promo pad-y-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <h2>Alcuni prodotti in promozione</h2>
+            <div class="bricoworld__promo--date">
+              <p>Valide dal 04 Agosto al 24 Agosto</p>
+            </div>
+          </div>
+          <!-- <div class="col-12 col-sm-4 d-flex justify-content-end">
+            <img src="./assets/logobricoworld.png" alt="Bricoworld il mondo del risparmio" />
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="promo pad-b-6">
+      <div class="container-fluid">
+        <div class="promo_inner">
+          <div class="owl-carousel owl-one">
+            <div class="item"><img src="./assets/ombrellone-lampapa.jpg" alt="" /></div>
+            <div class="item"><img src="./assets/poltrona-relax.jpg" alt="" /></div>
+            <div class="item"><img src="./assets/sedia-plastica_verde.jpg" alt="" /></div>
+            <div class="item"><img src="./assets/sedia-plastica_web.jpg" alt="" /></div>
+            <div class="item"><img src="./assets/set-sallotto-giardinaggio.jpg" alt="" /></div>
+            <div class="item"><img src="./assets/set-sedia-e-tavolo.jpg" alt="" /></div>
+            <div class="item"><img src="./assets/zagebo_offerta.jpg" alt="" /></div>
+          </div>
+        </div>
+        <!-- <img src="./assets/webpack.svg" /> -->
+      </div>
+    </section>
+
+    <section class="newsletter pad-y-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 offset-md-4">
+            <div class="newsletter__inner box">
+              <form class="form" action="#">
+                <div class="form__group mar-b-6">
+                  <h4>Non farti scappare delle nostre promozione</h4>
+                  <p>RESTA SEMPRE AGGIORNATO: ISCRIVITI ALLA NOSTRA NEWSLETTER E RICEVI IL VOLANTINO DIRETTAMENTE VIA MAIL !</p>
+                </div>
+                <div class="form__group">
+                  <input id="name" class="form__input" type="text" placeholder="Tuo Nome" required />
+                  <label class="form__label" for="name"> <i class="fa fa-user"></i>Tuo Nome</label>
+                </div>
+
+                <!-- <div class="form__group">
+                  <input id="telefono" class="form__input" type="tel" placeholder="Telefono" />
+                  <label class="form__label" for="Telefono">Telefono</label>
+                </div> -->
+
+                <div class="form__group">
+                  <input id="emai" class="form__input" type="email" placeholder="indirizzo e-mail" required />
+                  <label class="form__label" for="email"> <i class="fa fa-envelope" aria-hidden="true"></i> indirizzo e-mail</label>
+                </div>
+
+                <!-- <div class="form__group">
+                  <textarea class="form__textaera" name="message" id="message" cols="30" rows="6"></textarea>
+                </div> -->
+                <!-- <div class="form__group">
+                  <p>Letta l'informativa sulla privacy ai sensi del Dlg 196/03, acconsento al trattamento dei dati personali per le finalità e con le modalità specificatamente indicate nell'informativa stessa</p>
+                </div> -->
+                <div class="form__group">
+                  <input class="form__submit" type="submit" value="Iscrivimi" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="novita">
+      <div class="container-fluid">
+        <div class="novita__inner">
+          <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-3">
+              <div class="row">
+                <div class="novita__desc">
+                  <h2>NOVITÀ</h2>
+                  <p>Nuovi prodotti in assortimenti</p>
+                  <a class="btn" href="#">Scopri tutti</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="row">
+                <!-- Carrousel intro -->
+                <div id="carouselExampleNovita" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                      <img src="./assets/caroussel-agosto-bricoworld-detersivi.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                      <img src="./assets/caroussel-agosto-bricoworld-detersivi.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./assets/caroussel-agosto-bricoworld-detersivi.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleNovita" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleNovita" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+                <!-- Carrousel end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="riparto__bricoworld pad-y-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <div class="box">
+              <h2>REPARTI BRICOWORLD SELARGIUS</h2>
+              <p>Nel nostro negozio potrete trovare un ampio reparto con biancheria per la casa, la cucina, mobili, detersivi, Fai da te, elettrodomestici, articoli per auto ...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="riparto">
+              <a href="#">
+                <img class="riparto__img" src="./assets/riparto.jpg" alt="" />
+                <div class="riparto__title">
+                  <h3>igiena casa</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contatto pad-y-6">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-4">
+            <div class="orari">
+              <img src="./assets/logobricoworld.png" alt="" />
+              <h4>ORARI DI APERTURA:</h4>
+              <span
+                ><p>Lunedì</p>
+                <time>9:00 - 21:00</time></span
+              >
+              <span
+                ><p>Martedì</p>
+                <time>9:00 - 21:00</time></span
+              >
+              <span
+                ><p>Mercoledì</p>
+                <time>9:00 - 21:00</time></span
+              >
+              <span
+                ><p>Giovedì</p>
+                <time>9:00 - 21:00</time></span
+              >
+              <span
+                ><p>Venerdì</p>
+                <time>9:00 - 21:00</time></span
+              >
+              <span
+                ><p>Sabato</p>
+                <time>9:00 - 21:00</time></span
+              >
+              <span
+                ><p>Domenica</p>
+                <time>9:00 - 21:00</time></span
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="box">
+              <form class="form" action="#">
+                <div class="form__group mar-b-6">
+                  <h4>Contatto Bricoworld</h4>
+                  <p>“Scrivici, lo staff di Bricoworld ti risponderà al più presto!”</p>
+                </div>
+                <div class="form__group">
+                  <input id="name" class="form__input" type="text" placeholder="Tuo Nome" required />
+                  <label class="form__label" for="name"> <i class="fa fa-user"></i>Tuo Nome</label>
+                </div>
+
+                <div class="form__group">
+                  <input id="telefono" class="form__input" type="tel" placeholder="Telefono" />
+                  <label class="form__label" for="Telefono">Telefono</label>
+                </div>
+
+                <div class="form__group">
+                  <input id="emai" class="form__input" type="email" placeholder="indirizzo e-mail" required />
+                  <label class="form__label" for="email"> <i class="fa fa-envelope" aria-hidden="true"></i> indirizzo e-mail</label>
+                </div>
+
+                <div class="form__group">
+                  <textarea class="form__textaera" name="message" id="message" cols="30" rows="6"></textarea>
+                </div>
+                <div class="form__group">
+                  <p>Letta l'informativa sulla privacy ai sensi del Dlg 196/03, acconsento al trattamento dei dati personali per le finalità e con le modalità specificatamente indicate nell'informativa stessa</p>
+                </div>
+                <div class="form__group">
+                  <input class="form__submit" type="submit" value="Invia" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <h2>First gallery:</h2>
+
+      <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="1024x1024">
+            <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Image caption 1</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
+            <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Image caption 2</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
+            <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Image caption 3</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
+            <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Image caption 4</figcaption>
+        </figure>
+      </div>
+
+      <h2>Second gallery:</h2>
+
+      <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
+            <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
+            <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Image caption 2.2</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
+            <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Image caption 2.3</figcaption>
+        </figure>
+      </div>
+
+      <!-- Root element of PhotoSwipe. Must have class pswp. -->
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Background of PhotoSwipe. 
+             It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+          <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+          <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+          </div>
+
+          <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+          <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+              <!--  Controls are self-explanatory. Order can be changed. -->
+
+              <div class="pswp__counter"></div>
+
+              <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+              <button class="pswp__button pswp__button--share" title="Share"></button>
+
+              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+              <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+              <!-- element will get class pswp__preloader--active when preloader is running -->
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
+  </body>
+</html>

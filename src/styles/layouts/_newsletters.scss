@@ -1,0 +1,19 @@
+.newsletter {
+  background-color: $whiteColor;
+  min-height: 40rem;
+  background-image: url("img/mail_img.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  @include media-breakpoint-down(sm) {
+    background-image: none;
+  }
+  @include media-breakpoint-down(md) {
+    background-size: 40%;
+  }
+  //background-size: contain;
+
+  &__inner {
+    background-color: $lightBlue;
+  }
+}
