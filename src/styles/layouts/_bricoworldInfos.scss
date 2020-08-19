@@ -1,3 +1,9 @@
+.banner {
+  margin-top: 69px;
+  @include media-breakpoint-down(md) {
+    margin-top: 50px;
+  }
+}
 .bricoworld__infos {
   background-color: $lightYellow;
   padding: 4rem 0rem;

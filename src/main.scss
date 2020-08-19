@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~owl.carousel/dist/assets/owl.carousel.css";
 @import "./styles/abstract/variables";
+@import "./styles/abstract/mixins";
 @import "./styles/base/base";
 @import "./styles/base/utilities";
 @import "./styles/base/animations";
@@ -16,5 +17,6 @@
 @import "./styles/layouts/novita";
 @import "./styles/layouts/riparto";
 @import "./styles/layouts/contatto";
+@import "./styles/layouts/footer";
 
 @import "./styles/pages/home";
