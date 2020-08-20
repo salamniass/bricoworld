@@ -1,5 +1,6 @@
 // import { run } from "./app/app";
 import "./main.scss"
+import MobileMenu from "./app/components/navigations"
 // import { AlertService } from "./app/alert.service";
 // import { ComponentService } from "./app/component.service";
 // const alertService = new AlertService();
@@ -7,7 +8,7 @@ import "./main.scss"
 // run(alertService, componentService);
 // console.log("J");
 
-import "./app/components/navigations"
+let mobileMenu = new MobileMenu()
 import "owl.carousel"
 import "./app/components/owlcaroussel"
 
