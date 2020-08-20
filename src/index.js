@@ -1,12 +1,11 @@
 // import { run } from "./app/app";
 import "./main.scss"
 import MobileMenu from "./app/components/navigations"
-// import { AlertService } from "./app/alert.service";
-// import { ComponentService } from "./app/component.service";
-// const alertService = new AlertService();
-// const componentService = new ComponentService();
-// run(alertService, componentService);
-// console.log("J");
+import RevealOnScroll from "./app/components/RevealOnScroll"
+
+new RevealOnScroll(document.querySelectorAll(".feature-item"), 75)
+
+new RevealOnScroll(document.querySelectorAll(".reveal"), 80)
 
 let mobileMenu = new MobileMenu()
 import "owl.carousel"
