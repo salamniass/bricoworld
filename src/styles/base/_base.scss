@@ -24,7 +24,7 @@ html {
 
   @include media-breakpoint-up(md) {
     // width < 900?
-    font-size: 62.5%; //1 rem = 8px, 8/16 = 50%
+    font-size: 70.5%; //1 rem = 8px, 8/16 = 50%
   }
   @include media-breakpoint-up(lg) {
     // width < 1200?
@@ -46,15 +46,12 @@ body {
 
   @include media-breakpoint-up(md) {
     padding: 0;
-    background-color: red;
   }
   @include media-breakpoint-up(lg) {
     padding: 0;
-    background-color: yellow;
   }
   @include media-breakpoint-up(xl) {
     padding: 0;
-    background-color: orangered;
   }
 }
 
