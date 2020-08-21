@@ -2,6 +2,9 @@
 import "./main.scss"
 import MobileMenu from "./app/components/navigations"
 import RevealOnScroll from "./app/components/RevealOnScroll"
+import StickyHeader from "./app/components/StickyHeader"
+
+let stickyHeader = new StickyHeader()
 
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75)
 
