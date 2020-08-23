@@ -1,0 +1,48 @@
+.template-top-page {
+  background-color: $lightYellow;
+  color: $darkBlue;
+  //background-image: url("img/reparto_bg.png");
+  //background-position: bottom center;
+  //background-size: contain;
+  //background-repeat: no-repeat;
+  //min-height: 30rem;
+  border-bottom: 4px solid $darkBlue;
+  @include media-breakpoint-down(xs) {
+    border-bottom: 3px solid $darkBlue;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 20rem;
+    justify-content: center;
+    @include media-breakpoint-down(xs) {
+      min-height: 13rem;
+    }
+
+    &--title {
+      font-size: 4rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 1rem;
+      @include media-breakpoint-down(xs) {
+        font-size: 3rem;
+      }
+    }
+
+    &--subtitle {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      @include media-breakpoint-down(xs) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+.volantino__intro {
+  background-color: $lightBlue;
+}
