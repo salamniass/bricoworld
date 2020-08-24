@@ -24,6 +24,24 @@ module.exports = merge(common, {
           collapseWhitespace: false,
           removeComments: false
         }
+      }),
+      new HtmlWebpackPlugin({
+        filename: "reparto.html",
+        template: "./src/reparto.html",
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: false,
+          removeComments: false
+        }
+      }),
+      new HtmlWebpackPlugin({
+        filename: "volantino.html",
+        template: "./src/volantino.html",
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: false,
+          removeComments: false
+        }
       })
     ]
   },
