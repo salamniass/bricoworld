@@ -21,6 +21,10 @@
   &-orange {
     background-color: $orangeColor;
     color: $darkBlue;
+    font-weight: 700;
+    @include media-breakpoint-down(sm) {
+      margin-top: 2rem;
+    }
 
     &::after {
       background-color: $orangeColor;

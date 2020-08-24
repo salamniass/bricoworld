@@ -1,0 +1,13 @@
+.volantino {
+  background-color: $whiteColor;
+}
+.volantino__intro {
+  background-color: $lightBlue;
+  font-size: $default-font-size;
+  //background-image: url("img/volantino.png");
+
+  p {
+    letter-spacing: 0.4px;
+    line-height: 1.7;
+  }
+}
