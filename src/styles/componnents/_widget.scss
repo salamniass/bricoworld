@@ -1,13 +1,16 @@
 .section-widget {
-  background-color: $lightBlue;
+  background-color: $whiteColor;
   .widget {
     background-color: $whiteColor;
     padding: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #e2e2e2;
-    -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
-    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
-    border-radius: 0.65rem;
+    //-webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+    //box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+
     font-size: $default-font-size;
     text-align: center;
 
