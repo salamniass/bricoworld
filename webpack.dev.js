@@ -21,6 +21,10 @@ module.exports = merge(common, {
     new HtmlWebpackPlugin({
       filename: "reparto.html",
       template: "./src/reparto.html"
+    }),
+    new HtmlWebpackPlugin({
+      filename: "fidelta-carta.html",
+      template: "./src/fidelta-carta.html"
     })
   ],
   module: {

@@ -1,0 +1,18 @@
+.template-fc {
+  background-image: url("img/carta_fidelta.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 24%;
+}
+
+.carta__brico {
+  font-size: 1.3rem;
+  background-color: $lightBlue;
+
+  p {
+    line-height: 1.7;
+  }
+  p:not(:last-child) {
+    margin-bottom: 0.9rem;
+  }
+}

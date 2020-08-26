@@ -1,0 +1,128 @@
+.carta__fidelta--infos {
+  background-color: $lightBlue;
+  padding: 1.5rem;
+  //border-bottom: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+  border-radius: 0.65rem;
+  //align-items: center;
+  margin: 2rem auto;
+
+  h3 {
+    color: $darkBlue;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 1px 0.5px 2px #d2d2d2;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+  }
+}
+
+.carta__infos-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  color: $darkBlue;
+  font-size: 1.2rem;
+
+  &__icon {
+    display: flex;
+    width: 90px;
+    height: auto;
+    margin-right: 1.5rem;
+    justify-content: center;
+
+    @include media-breakpoint-down(md) {
+      width: 60px;
+      margin-bottom: 2rem;
+    }
+  }
+
+  ul {
+    li {
+      list-style: none;
+      margin-bottom: 0.8rem;
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      span {
+        font-weight: bold;
+        margin: 0 5px;
+      }
+      &::before {
+        display: block;
+        content: "";
+        width: 18px;
+        height: 18px;
+        background-image: url("img/icon-hand.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 0.7rem;
+      }
+    }
+  }
+}
+
+.punti__carta {
+  background-color: $lightBlue;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+
+  h4 {
+    font-size: $default-font-size;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+}
+
+.punti {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: $whiteColor;
+  padding: 1rem;
+  //border-bottom: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+  border-radius: 0.65rem;
+  margin-bottom: 30px;
+
+  &__qnt {
+    font-size: 1.4rem;
+    color: $darkBlack;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    p {
+      margin: 0;
+    }
+  }
+
+  &__sconti {
+    font-size: 3.4rem;
+    color: $orangeColor;
+    font-weight: bold;
+    text-shadow: 1px -1px 1px #1f1351;
+    p {
+      margin: 0;
+    }
+  }
+
+  &__off {
+    font-size: 1.3rem;
+    color: $darkBlack;
+    font-weight: bold;
+
+    p {
+      margin: 0;
+    }
+  }
+}
