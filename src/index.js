@@ -24,6 +24,10 @@ $(document).ready(function () {
 
 new PhotoSwipe()
 
+if (module.hot) {
+  module.hot.accept()
+}
+
 // Photoswipe js init
 var initPhotoSwipeFromDOM = function (gallerySelector) {
   // parse slide data (url, title, size ...) from DOM elements
