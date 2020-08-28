@@ -42,6 +42,15 @@ module.exports = merge(common, {
           collapseWhitespace: false,
           removeComments: false
         }
+      }),
+      new HtmlWebpackPlugin({
+        filename: "novita.html",
+        template: "./src/novita.html",
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: false,
+          removeComments: false
+        }
       })
     ]
   },
