@@ -11,7 +11,7 @@ module.exports = merge(common, {
   mode: "production",
   output: {
     filename: "[name].[contentHash].bundle.js",
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, "docs")
   },
   optimization: {
     minimizer: [
@@ -22,7 +22,7 @@ module.exports = merge(common, {
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: false,
-          removeComments: false
+          removeComments: true
         }
       }),
       new HtmlWebpackPlugin({
@@ -31,7 +31,7 @@ module.exports = merge(common, {
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: false,
-          removeComments: false
+          removeComments: true
         }
       }),
       new HtmlWebpackPlugin({
@@ -40,7 +40,7 @@ module.exports = merge(common, {
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: false,
-          removeComments: false
+          removeComments: true
         }
       }),
       new HtmlWebpackPlugin({
@@ -49,7 +49,7 @@ module.exports = merge(common, {
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: false,
-          removeComments: false
+          removeComments: true
         }
       })
     ]
