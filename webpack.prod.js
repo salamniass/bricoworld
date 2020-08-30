@@ -51,6 +51,15 @@ module.exports = merge(common, {
           collapseWhitespace: false,
           removeComments: true
         }
+      }),
+      new HtmlWebpackPlugin({
+        filename: "fidelta-carta.html",
+        template: "./src/fidelta-carta.html",
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: false,
+          removeComments: true
+        }
       })
     ]
   },
