@@ -7,6 +7,7 @@
 
   @include media-breakpoint-down(sm) {
     background-image: none;
+    font-size: $default-font-size;
   }
   @include media-breakpoint-down(md) {
     background-size: 40%;

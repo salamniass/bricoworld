@@ -16,12 +16,12 @@
     font-weight: bold;
     letter-spacing: 1px;
     @include media-breakpoint-down(xs) {
-      font-size: 2.6rem;
+      font-size: 2.3rem;
     }
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: $default-font-size;
     color: $darkBlack;
     line-height: 1.8;
     letter-spacing: 1px;
