@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96.516" height="90.484" viewBox="0 0 96.516 90.484">
-  <g id="cart" transform="translate(0 -2)">
-    <path id="Tracé_291" data-name="Tracé 291" d="M24.1,35.048A9.048,9.048,0,1,1,15.048,26,9.048,9.048,0,0,1,24.1,35.048Z" transform="translate(12.097 48.387)" fill="#ff7d00"/>
-    <path id="Tracé_292" data-name="Tracé 292" d="M44.1,35.048A9.048,9.048,0,1,1,35.048,26,9.048,9.048,0,0,1,44.1,35.048Z" transform="translate(52.42 48.387)" fill="#ff7d00"/>
-    <path id="Tracé_293" data-name="Tracé 293" d="M96.516,44.226V8.032H24.129A6.031,6.031,0,0,0,18.1,2H0V8.032H12.065l4.53,38.839a12.062,12.062,0,0,0,7.534,21.484H96.516V62.323H24.129A6.031,6.031,0,0,1,18.1,56.29v-.06l78.42-12Z" transform="translate(0 0)" fill="#1f1351"/>
-  </g>
-</svg>
