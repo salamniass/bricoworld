@@ -15,16 +15,19 @@
       margin-bottom: 1.3rem;
       letter-spacing: 1px;
       font-size: 1.9rem;
+
+      @include media-breakpoint-down(xs) {
+        margin-bottom: 0.3rem;
+      }
+    }
+    @include media-breakpoint-down(xs) {
+      min-height: 15rem;
     }
   }
 
   p {
     font-size: 1.4rem;
     margin-bottom: 1rem;
-  }
-
-  @include media-breakpoint-down(md) {
-    width: 60%;
   }
 
   @include media-breakpoint-down(xs) {
