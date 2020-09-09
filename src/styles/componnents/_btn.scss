@@ -25,6 +25,9 @@
     @include media-breakpoint-down(sm) {
       margin-top: 2rem;
     }
+    @include media-breakpoint-down(md) {
+      font-size: 1.2rem;
+    }
 
     &::after {
       background-color: $orangeColor;

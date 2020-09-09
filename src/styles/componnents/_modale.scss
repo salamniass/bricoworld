@@ -11,6 +11,17 @@
   background-color: rgba($whiteColor, 0.94);
   z-index: 100;
   display: flex;
+  text-align: center;
+
+  &__logo {
+    width: 29rem;
+    height: auto;
+    margin: 2rem auto;
+
+    @include media-breakpoint-down(sm) {
+      width: 19rem;
+    }
+  }
 
   &--is-visible {
     opacity: 1;

@@ -38,6 +38,21 @@
 
   &__btn-container {
     float: right;
+    i {
+      margin-right: 8px;
+    }
+  }
+
+  &__btn-container--infos {
+    i {
+      margin-right: 8px;
+    }
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
   }
   &__logo {
     position: absolute;
@@ -147,6 +162,11 @@
       padding-top: 20px;
 
       display: none;
+    }
+    &--infos {
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
     }
   }
   &--is-visible {
