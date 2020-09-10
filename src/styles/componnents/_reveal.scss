@@ -1,4 +1,7 @@
 .reveal-item {
+  &:first-child {
+    opacity: 1;
+  }
   opacity: 0;
   transition: all 0.5s ease-out;
   transform: translateY(-20px);
