@@ -6,8 +6,8 @@
   transition: all 0.5s ease-out;
   transform: translateY(-20px);
   backface-visibility: hidden;
-  -webkit-filter: blur(8px);
-  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
 
   &--is-visible {
     // opacity: 1;

@@ -20,8 +20,9 @@
 
   &-orange {
     background-color: $orangeColor;
-    color: $darkBlue;
+    color: $whiteColor;
     font-weight: 700;
+    text-shadow: 1px 0 1px #424242;
     @include media-breakpoint-down(sm) {
       margin-top: 2rem;
     }
@@ -34,7 +35,10 @@
     }
 
     &:hover {
-      color: $darkBlue !important;
+      color: $whiteColor !important;
+    }
+    i.fa-file-pdf {
+      margin-right: 5px;
     }
   }
 

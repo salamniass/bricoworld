@@ -1,5 +1,13 @@
 .volantino {
   background-color: $whiteColor;
+
+  .my-gallery {
+    width: auto !important;
+  }
+
+  figure.col-12 {
+    margin-bottom: 30px;
+  }
 }
 .volantino__intro {
   background-color: $lightBlue;
