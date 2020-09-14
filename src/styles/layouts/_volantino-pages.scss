@@ -19,3 +19,10 @@
     line-height: 1.7;
   }
 }
+
+.volantino__slg {
+  min-height: 20rem;
+  display: flex;
+  align-items: center;
+  background-color: $whiteColor;
+}

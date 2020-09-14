@@ -9,6 +9,44 @@
   margin: 0 auto;
 }
 
+.box-dark {
+  background-color: $darkBlue;
+  padding: 1.4rem;
+  color: $yellowColor;
+  //border-bottom: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.034);
+  border-radius: 0.65rem;
+  //align-items: center;
+  //margin: 0 auto;
+  transform: skewX(10deg);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  @include media-breakpoint-down(sm) {
+    margin: 0 auto;
+  }
+
+  .volantino__slg--intro__title {
+    font-size: 4rem;
+    transform: skewX(-10deg);
+    color: #ffffda;
+    text-shadow: 2px 2px 0 black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .volantino__slg--intro__date {
+    font-size: 2rem;
+
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 0 0 black;
+  }
+}
+
 .box-2 {
   background-color: $lightBlue;
   color: $darkBlack;
