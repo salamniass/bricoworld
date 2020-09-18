@@ -24,6 +24,8 @@
   padding-right: 3rem;
   @include media-breakpoint-down(sm) {
     margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .volantino__slg--intro__title {
@@ -34,6 +36,9 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    @include media-breakpoint-down(sm) {
+      font-size: 3rem;
+    }
   }
 
   .volantino__slg--intro__date {
@@ -44,6 +49,9 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 2px 0 0 black;
+    @include media-breakpoint-down(sm) {
+      font-size: 1.5rem;
+    }
   }
 }
 
